@@ -8,7 +8,7 @@ export default function Banner() {
     return (
         <>
 
-            <div className="w-full h-dvh container">
+            <div className="w-full h-fit lg:h-dvh container">
                 <div className="py-4 relative overflow-hidden container h-full lg:h-[500px] w-full mt-20 rounded-lg bg-[url('/assets/banner/banner.png')] bg-cover bg-center bg-no-repeat flex items-center justify-center lg:justify-start">
 
                     <div className="flex flex-col z-10 lg:w-[70%]">

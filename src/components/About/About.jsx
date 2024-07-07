@@ -44,7 +44,7 @@ export default function About() {
                         <Button>More About Us</Button>
                     </div>
                 </div>
-                < div className='w-full lg:w-1/2 relative h-full flex flex-col justify-center bg-white'>
+                < div className='w-full lg:w-1/2 relative h-full flex flex-col justify-center'>
                     <img src={about1} alt="" className='w-[300px] h-auto lg:absolute lg:left-24 lg:top-0 hidden lg:block' />
                     <img src={about2} alt="" className='w-[300px] h-auto lg:absolute right-0 -bottom-0 hidden lg:block' />
                     <div className='lg:absolute hidden lg:block bottom-[20%] left-[200px] bg-white py-[20px] px-[20px] rounded-lg'>

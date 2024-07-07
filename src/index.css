@@ -9,7 +9,7 @@
   html,
   body {
     @apply scroll-smooth duration-150 ease-linear
-    overflow-x-hidden text-mainFont;
+    overflow-x-hidden text-mainFont bg-white;
   }
   section {
     @apply pt-12 pb-5 md:pt-20;
@@ -26,14 +26,14 @@
   .text-mainFont {
     font-family: "Fredoka", sans-serif;
   }
-  .text-secondFont {
+  /* .text-secondFont {
     font-family: "Roboto", sans-serif;
-  }
+  } */
   .section-tittle-dark {
-    @apply tracking-wider text-4xl lg:text-6xl font-bold capitalize text-whiteColor text-secondFont;
+    @apply tracking-wider text-4xl lg:text-6xl font-bold capitalize text-whiteColor;
   }
   .section-tittle-light {
-    @apply tracking-wider text-4xl lg:text-6xl font-bold capitalize text-blackColor text-secondFont;
+    @apply tracking-wider text-4xl lg:text-6xl font-bold capitalize text-blackColor;
   }
   .section-parag-dark {
     @apply text-xs lg:text-base font-normal  text-whiteColor;

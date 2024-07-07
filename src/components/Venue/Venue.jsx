@@ -5,16 +5,16 @@ import Button from "../Button/Button"
 
 export default function Venue() {
     return (
-        <div className="w-full mt-5 lg:mt-14">
+        <div className="w-full mt-5 lg:mt-32">
             <div className="mt-5 container w-full flex flex-col md:flex-row lg:flex-row">
                 <div className="flex justify-start w-full relative">
                     <div>
                         <h1 className="section-tittle-light">
                             Explore Beautiful Venues
                         </h1>
-                        <img src={venue1} alt="" className="mt-5 h-full w-[200px] lg:w-[400px]" />
+                        <img src={venue1} alt="" className="mt-5 h-[85%] w-[230px] lg:w-[450px]" />
                     </div>
-                    <div className='absolute bottom-[20%] left-[100px] lg:left-[200px] bg-white p-4 w-fit rounded-2xl'>
+                    <div className='absolute bottom-[20%] left-[100px] lg:left-[300px] bg-white p-4 w-fit rounded-2xl'>
                         <div className='flex flex-col text-left'>
                             <p className="text-gray-500">Venue : 1</p>
                             <p className='text-[20px] lg:text-[28px] font-semibold'>KEMPINSKI HOTEL INDONESIA</p>
@@ -25,9 +25,9 @@ export default function Venue() {
                         </div>
                     </div>
                 </div>
-                <div className="flex justify-end w-full relative">
-                    <img src={venue2} alt="" className="w-[200px] lg:w-[400px]" />
-                    <div className='absolute bottom-[5%] lg:top-[30%] right-[100px] lg:right-[200px] bg-white p-4 w-fit rounded-2xl h-fit'>
+                <div className="flex flex-col items-end w-full relative justify-end">
+                    <img src={venue2} alt="" className="w-[230px] lg:w-[450px] h-full" />
+                    <div className='absolute bottom-[40%] lg:top-[30%] right-[100px] lg:right-[250px] bg-white p-4 w-fit rounded-2xl h-fit'>
                         <div className='flex flex-col text-left'>
                             <p className="text-gray-500">Venue : 2</p>
                             <p className='text-[20px] lg:text-[28px] font-semibold'>REGAELE CONVENTION HALL</p>
@@ -36,10 +36,9 @@ export default function Venue() {
                                 <img src={icon} alt="" width={25} height={25} className="bg-primaryColor rounded-full p-1" />
                             </div>
                         </div>
-                        <div className="mt-3">
-                            <Button className="">Detail</Button>
-                        </div>
-
+                    </div>
+                    <div className="mt-5 w-[65%] lg:w-[75%] text-left h-fit">
+                        <p className="section-parag-light">Explore new ideas at astoundingly beautiful venues. Attend Tech Startup Conferences and meet new brilliant minds from all over the world.</p>
                     </div>
                 </div>
 

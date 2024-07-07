@@ -4,8 +4,8 @@ import move from "lodash-move";
 import { FaArrowDown } from "react-icons/fa";
 
 const CARD_COLORS = ["#fff", "#fff", "#fff"];
-const CARD_IMAGES = ["../../../public/assets/recap/recap1.jpg", "../../../public/assets/recap/recap2.jpg", "../../../public/assets/recap/recap3.jpg"]
-const CARD_TITLES = ["Green Day | 28 feb 2022", "Green Day | 28 feb 2022", "Green Day | 28 feb 2022", "Green Day | 28 feb 2022"]; // Tambahkan array judul kartu
+const CARD_IMAGES = ["/assets/recap/recap1.jpg", "/assets/recap/recap2.jpg", "/assets/recap/recap3.jpg"]
+const CARD_TITLES = ["Green Day | 28 feb 2022", "Green Day | 28 feb 2022", "Green Day | 28 feb 2022"]; // Tambahkan array judul kartu
 const CARD_OFFSET = 10;
 const SCALE_FACTOR = 0.06;
 

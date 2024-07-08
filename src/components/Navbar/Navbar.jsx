@@ -7,7 +7,7 @@ import { FaTimes } from 'react-icons/fa';
 
 const NavLinks = [
     { id: 0, navTitle: "home", path: "#" },
-    { id: 1, navTitle: "about", path: "#" },
+    { id: 1, navTitle: "about", path: "/about" },
     { id: 2, navTitle: "event", path: "#" },
     { id: 3, navTitle: "resource", path: "#" },
     { id: 4, navTitle: "helpdesk", path: "#" }

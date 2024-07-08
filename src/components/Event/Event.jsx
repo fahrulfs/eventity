@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Button from '../Button/Button';
 import { FaArrowCircleRight } from 'react-icons/fa';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default function Event() {
     const [events, setEvents] = useState([]);
@@ -14,13 +16,22 @@ export default function Event() {
         eventschedule()
     }, [])
 
+    useEffect(() => {
+        AOS.init({
+            duration: 1500,
+            once: false,
+            mirror: true,
+            anchorPlacement: 'top-bottom',
+        })
+    }, [])
+
     return (
         <div className="w-full">
             <div className="container w-full">
                 <h1 className="section-tittle-light text-center mt-5">Event Schedule</h1>
-                <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-5 mt-5">
+                <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-5 mt-5">
                     {events.map((item) => (
-                        <div key={item.id} className="w-full p-2 bg-gray-100 rounded-2xl cursor-pointer hover:bg-gray-300 duration-150">
+                        <div data-aos="fade-up" key={item.id} className="w-full p-2 bg-gray-100 rounded-2xl cursor-pointer hover:bg-gray-300 duration-150">
                             <img src={item.image} alt="" />
                             <div className='flex justify-between items-center'>
                                 <h4 className='h4 text-gray-700'>{item.date}</h4>
@@ -34,7 +45,7 @@ export default function Event() {
                         </div>
                     ))}
                 </div>
-                <div className='flex justify-center mt-5 w-full'>
+                <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='flex justify-center mt-5 w-full'>
                     <Button>View All</Button>
                 </div>
             </div>

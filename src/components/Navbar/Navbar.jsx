@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Logo from '../../../public/assets/logo.png';
+import Logo from '/assets/logo.png';
 import { FaBars } from 'react-icons/fa6';
 import { motion } from "framer-motion";
 import "./Navbar.scss";

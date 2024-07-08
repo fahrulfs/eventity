@@ -13,6 +13,7 @@ export default {
         primaryColor: '#070148',
         accentColor: '#050220',
         blackColor: '#000',
+        footerColor: '#171717',
         whiteColor: '#fff',
         bgDarkmode: "#020617",
         bgLightmode: "#f3f4f6"

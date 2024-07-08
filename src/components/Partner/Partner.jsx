@@ -8,7 +8,7 @@ export default function Partner() {
 
     useEffect(() => {
         async function partner() {
-            const res = await fetch('/lib/partner.json')
+            const res = await fetch('/partner.json')
             const data = await res.json()
             setPartners(data)
         }

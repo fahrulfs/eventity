@@ -5,7 +5,7 @@
        "date": "2024-03-01",
        "time": "10:00pm - 12:00pm",
         "location":"Jakarta,Indonesia",
-       "image":"/assets/eventlist/event1.png"
+       "image":"../public/assets/eventlist/event1.png"
     },
 {
         "id":2,
@@ -13,7 +13,7 @@
        "date": "2024-03-01",
        "time": "10:00pm - 12:00pm",
        "location":"Jakarta,Indonesia",
-        "image":"/assets/eventlist/event2.png"
+        "image":"../public/assets/eventlist/event2.png"
     },
   
   {
@@ -22,7 +22,7 @@
        "date": "2024-03-01",
        "time": "10:00pm - 12:00pm",
        "location":"Surabaya,Indonesia",
-        "image":"/assets/eventlist/event3.png"
+        "image":"../public/assets/eventlist/event3.png"
     }, 
 {
         "id":4,
@@ -30,7 +30,7 @@
        "date": "2024-03-01",
        "time": "10:00pm - 12:00pm",
        "location":"Bandung,Indonesia",
-        "image":"/assets/eventlist/event4.png"
+        "image":"../public/assets/eventlist/event4.png"
     },
 {
         "id":5,
@@ -38,7 +38,7 @@
        "date": "2024-03-01",
        "time": "10:00pm - 12:00pm",
        "location":"Solo,Indonesia",
-        "image":"/assets/eventlist/event5.png"
+        "image":"../public/assets/eventlist/event5.png"
     },
 {
         "id":6,
@@ -46,6 +46,6 @@
        "date": "2024-03-01",
        "time": "10:00pm - 12:00pm",
        "location":"Jakarta,Indonesia",
-        "image":"/assets/eventlist/event6.png"
+        "image":"../public/assets/eventlist/event6.png"
     }
 ]

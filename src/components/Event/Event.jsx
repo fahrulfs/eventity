@@ -7,7 +7,7 @@ export default function Event() {
 
     useEffect(() => {
         async function eventschedule() {
-            const res = await fetch('../lib/eventschedule.json')
+            const res = await fetch('/eventschedule.json')
             const data = await res.json()
             setEvents(data)
         }
